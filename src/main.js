@@ -10,7 +10,6 @@ const store = createStore({
 });
 
 
-// App.component('handleFileUpload', handleFileUpload)
 
 
 createApp(App).mount('#app')
