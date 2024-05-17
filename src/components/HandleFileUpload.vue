@@ -6,8 +6,12 @@
 
 <script>
 import * as XLSX from 'xlsx';
+import { ref, onMounted } from "vue";
 
 export default {
+    data(){
+
+    },
     methods: {
         async handleFileUpload(event) {
             const file = event.target.files[0];

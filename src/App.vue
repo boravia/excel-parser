@@ -1,11 +1,10 @@
 <script setup>
 import HandleFileUpload from '@/components/HandleFileUpload.vue';
-import DataTable from 'datatables.net-vue3';
-import DataTablesCore from 'datatables.net';
+
 import { computed } from 'vue';
 import { useStore } from 'vuex';
 
-DataTable.use(DataTablesCore);
+
 const store = useStore();
 
 const tableData = computed(() => store.state.tableData);
@@ -13,7 +12,7 @@ const tableData = computed(() => store.state.tableData);
 
 <template>
   <HandleFileUpload></HandleFileUpload>
-  <DataTable>
+
     <thead>
       <tr>
         <th>КАТО</th>
@@ -32,7 +31,8 @@ const tableData = computed(() => store.state.tableData);
         <td>{{ item.Адрес }}</td>
       </tr>
     </tbody>
-  </DataTable>
+
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
