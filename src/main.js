@@ -1,9 +1,11 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import { createStore } from "vuex";
 import store from "./store";
-import { read, writeFileXLSX } from "xlsx";
-import handleFileUpload from "./components/HandleFileUpload.vue";
+import './styles/reset.scss';
+import './styles/rules.scss'
+// import { createStore } from "vuex";
+// import { read, writeFileXLSX } from "xlsx";
+// import handleFileUpload from "./components/HandleFileUpload.vue";
 
 // const store = createStore({});
 
