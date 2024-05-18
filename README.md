@@ -1,3 +1,8 @@
+# This was made for internship in AO "Kazakhtelecom"
+in order to do 3 task I added a link to my presentation:
+
+https://drive.google.com/file/d/1TyzWfdQY_6kuon9vkycvm3excOIHPf4E/view?usp=drive_link
+
 # excel-parse
 
 This template should help get you started developing with Vue 3 in Vite.

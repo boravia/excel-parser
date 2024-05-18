@@ -8,7 +8,6 @@ import TableData from '@/components/TableData.vue'
 <template>
   <HandleFileUpload></HandleFileUpload>
   <TableData></TableData>
-
 </template>
 
 <style scoped>
